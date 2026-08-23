@@ -3,14 +3,20 @@
 #include <stdio.h>
 
 int main() {
-    int n;
-    printf("Enter the value of n: ");
-    scanf("%d", &n);
 
-    long long sum = (long long)n * (n + 1) / 2;
-    printf("Sum of first %d natural numbers = %lld\n", n, sum);
+int n;
+int sum=0;
 
-    return 0;
+printf("enter a numbe: ");
+scanf("%d", &n);
+
+for(int i= 0; i<= n; i++)
+sum= sum+i;
+
+printf("%d", sum);
+
+return 0;
+
 }
 
 /*
