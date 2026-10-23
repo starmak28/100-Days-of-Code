@@ -6,7 +6,8 @@
 
 int main() {
     float a, b, c, d, r1, r2;
-
+    
+    printf("Enter numbers: ");
     scanf("%f %f %f", &a, &b, &c);
 
     d = b * b - 4 * a * c;
